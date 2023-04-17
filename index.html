@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+
+  <!-- <link rel="stylesheet" href="./css/tailwind.css"> -->
+  <link rel="stylesheet" href="./css/style.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body style="font-family: 'Outfit', sans-serif;"
+  class="bg-[#0c192c] text-white flex flex-col gap-1 items-center justify-center h-screen">
+
+  <main class="w-[325px] h-[545px] bg-[#15273f] rounded-xl flex justify-center items-center">
+
+    <div class="w-[275px] ">
+
+      <div class="rounded-lg overflow-hidden">
+
+        <div class="flex relative  cursor-pointer">
+
+          <div class="group">
+
+            <div class="absolute opacity-0 z-50 bg-teal-600 w-full h-full group-hover:opacity-50"></div>
+
+            <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-30 group-hover:z-50" src="./images/icon-view.svg" alt="...">
+          </div>
+
+
+          <img class="relative z-40 hover:opacity-30" src="./images/image-equilibrium.jpg" alt="...">
+
+        </div>
+
+      </div>
+
+      <section>
+
+        <h1 class="text-xl font-bold my-[20px] hover:text-[#29e4e3] cursor-pointer">Equilibrium #3429</h1>
+
+        <p class="text-[#607391]">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+
+        <div class="py-[19px] flex flex-row justify-between ">
+
+          <div class="flex flex-row justify-center items-center gap-2">
+            <img src="./images/icon-ethereum.svg" alt="...">
+            <span class="text-[#00fff8]">
+              0.041 ETH
+            </span>
+          </div>
+
+          <div class="flex flex-row justify-center items-center gap-2">
+            <img src="./images/icon-clock.svg" alt="...">
+            <span class="text-[#8bacd9]">
+              3 days left
+            </span>
+          </div>
+
+        </div>
+
+        <div style="border-top: 2px solid #23354d;">
+          &nbsp;
+        </div>
+
+        <div class="flex flex-row items-center gap-4">
+          <span class="rounded-full ring-1 ring-white">
+            <img src="./images/image-avatar.png" alt="..." class="w-[30px]">
+          </span>
+          <span>
+            <span class="text-[#7185a4]">
+              Creation of
+            </span>
+            <span class="hover:text-[#2bd7dc] cursor-pointer">
+              Jules Wyvern
+            </span>
+          </span>
+        </div>
+
+      </section>
+
+    </div>
+
+  </main>
+
+  <div class="attribution text-teal-50">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/sajidrec" target="_blank" class="visited:text-white font-bold text-white">MD. Sajid Hossain</a>.
+  </div>
+
+</body>
+
+</html>
